@@ -89,6 +89,24 @@
       "nickname": "Ash",
       "gender": "Female",
       "picture": "https://randomuser.me/api/portraits/lego/1.jpg"
+    },
+    {
+      "fullName": "Jack Rodriguez",
+      "age": 33,
+      "occupation": "Full Stack Engineer",
+      "nickname": "Jacky",
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/9.jpg",
+      "id": 11
+    },
+    {
+      "fullName": "Jairo Toro",
+      "age": "23",
+      "occupation": "Front End Developer",
+      "nickname": "Jair",
+      "gender": "Male",
+      "picture": "https://randomuser.me/api/portraits/lego/1.jpg",
+      "id": 12
     }
   ],
   "tasks": [
