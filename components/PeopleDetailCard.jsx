@@ -1,11 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import { IconSettings } from '@tabler/icons';
 import Link from 'next/link';
 
 export default function PeopleDetailCard({ person }) {
   return (
-    <div className='border rounded-lg'>
+    <div className='border rounded-lg bg-gradient-to-b'>
       <div className='flex items-center justify-between pr-3'>
         <div className='flex items-center p-3'>
           <Image
@@ -24,7 +23,10 @@ export default function PeopleDetailCard({ person }) {
           <span className='underline text-sm text-gray-500'>Edit profile</span>
         </Link>
       </div>
-      <div className='border-t'></div>
+      <div className='border-t' />
+      <h1 className='text-lg text-center font-bold pt-2 text-pink-500'>
+        Personal info
+      </h1>
       <ul className='p-3'>
         <li>
           <strong>Occupation:</strong> {person.occupation}
