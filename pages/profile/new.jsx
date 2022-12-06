@@ -9,7 +9,15 @@ export default function NewUserPage() {
   async function handleSubmit(e) {
     e.preventDefault();
     validator();
-    if (!picture && !fullName && !nickname && !age && !occupation && !gender) {
+    const { picture, fullName, nickname, age, occupation, gender } = values;
+    if (
+      picture !== '' &&
+      fullName !== '' &&
+      nickname !== '' &&
+      age !== null &&
+      occupation !== '' &&
+      gender !== ''
+    ) {
       const data = {
         fullName: values.fullName,
         age: values.age,

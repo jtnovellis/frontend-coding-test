@@ -11,6 +11,10 @@ const pages = [
     label: 'New user',
     link: '/profile/new',
   },
+  {
+    label: 'New task',
+    link: '/tasks/new',
+  },
 ];
 
 export default function Navbar() {
