@@ -78,6 +78,8 @@ function personEditReducer(state, action) {
         ...state,
         error: true,
       };
+    default:
+      return state;
   }
 }
 
