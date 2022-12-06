@@ -25,7 +25,7 @@ const links = [
 export default function Footer() {
   return (
     <footer className='fixed bottom-0 bg-white w-full'>
-      <ul className='flex justify-center items-center px-1'>
+      <ul className='flex justify-center items-center px-1 text-pink-500'>
         {links.map((item) => (
           <li key={item.label} className='flex p-6'>
             {item.icon}

@@ -64,13 +64,13 @@
       "picture": "https://randomuser.me/api/portraits/lego/7.jpg"
     },
     {
-      "id": 8,
       "fullName": "Samantha Taylor",
-      "age": 26,
+      "age": "23",
       "occupation": "Graphic Designer",
       "nickname": "Sam",
       "gender": "Female",
-      "picture": "https://randomuser.me/api/portraits/lego/8.jpg"
+      "picture": "https://randomuser.me/api/portraits/lego/8.jpg",
+      "id": 8
     },
     {
       "id": 9,

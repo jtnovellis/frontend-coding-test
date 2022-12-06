@@ -1,10 +1,9 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function PeopleDetailCard({ person }) {
   return (
-    <div className='border rounded-lg bg-gradient-to-b'>
+    <div className='border rounded-lg'>
       <div className='flex items-center justify-between pr-3'>
         <div className='flex items-center p-3'>
           <Image

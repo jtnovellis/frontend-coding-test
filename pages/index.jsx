@@ -21,10 +21,12 @@ export default function HomePage({ people }) {
   return (
     <section className='p-4'>
       <div className='flex justify-between items-center px-3'>
-        <h1 className='text-3xl text-center font-bold my-3'>People</h1>
+        <h1 className='text-3xl text-center font-bold my-3 text-pink-500'>
+          People
+        </h1>
         <button
           onClick={() => setSorter((prev) => !prev)}
-          className='flex justify-between items-center'
+          className='flex justify-between items-center text-gray-400'
         >
           {sorter ? 'Youngest to oldest' : 'Oldest to youngest'}
           {sorter ? <IconChevronDown /> : <IconChevronUp />}

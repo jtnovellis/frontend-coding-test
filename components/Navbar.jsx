@@ -30,7 +30,9 @@ export default function Navbar() {
   return (
     <header className='p-4 fixed top-0 sm:p-6 w-full bg-white z-20'>
       <nav className='border border-white rounded-lg p-3 sm:p-5 flex justify-between items-center shadow-2xl lg:max-w-6xl md:mx-auto'>
-        <p className='text-3xl text-pink-500'>datasketch</p>
+        <Link href='/'>
+          <p className='text-3xl text-pink-500'>datasketch</p>
+        </Link>
         <div className='lg:hidden pt-1'>
           {isDropped ? (
             <div className='fixed top-0 left-0 w-screen h-screen bg-white p-7'>
