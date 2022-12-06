@@ -19,7 +19,9 @@ export default function PeopleDetailCard({ person }) {
           </div>
         </div>
         <Link href={`/profile/${person.id}/edit`}>
-          <span className='underline text-sm text-gray-500'>Edit profile</span>
+          <span className='underline text-sm text-gray-500 cursor-pointer'>
+            Edit profile
+          </span>
         </Link>
       </div>
       <div className='border-t' />

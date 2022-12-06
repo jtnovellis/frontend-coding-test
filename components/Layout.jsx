@@ -15,7 +15,7 @@ export default function Layout({ children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <main className='mt-20 sm:mt-24 md:mt-28 max-w-6xl mx-auto mb-16'>
+      <main className='mt-20 sm:mt-24 md:mt-36 max-w-6xl mx-auto mb-16'>
         {children}
       </main>
       <Footer />

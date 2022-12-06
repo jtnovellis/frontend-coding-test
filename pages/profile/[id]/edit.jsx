@@ -66,7 +66,7 @@ export default function EditPage({ person }) {
             />
             <button
               onClick={() => dispatch({ type: 'pictureStatus' })}
-              className='border border-pink-400 rounded-lg w-[8rem] text-pink-500 my-1'
+              className='border border-pink-400 rounded-lg w-[8rem] h-[3rem] text-pink-500 p-1 my-1'
             >
               Change
             </button>
@@ -101,8 +101,8 @@ export default function EditPage({ person }) {
           </div>
         )}
         <div>
-          <div className='flex items-center border-t p-3'>
-            <div className='py-3 p-2'>
+          <div className='flex items-center justify-between border-t p-3'>
+            <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
               <label htmlFor='fullName' className='text-sm text-gray-500'>
                 Full Name
               </label>
@@ -140,8 +140,8 @@ export default function EditPage({ person }) {
               </div>
             )}
           </div>
-          <div className='flex items-center border-t p-3'>
-            <div className='py-3 p-2'>
+          <div className='flex items-center justify-between border-t p-3'>
+            <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
               <label htmlFor='nickname' className='text-sm text-gray-500'>
                 Nickname
               </label>
@@ -179,8 +179,8 @@ export default function EditPage({ person }) {
               </div>
             )}
           </div>
-          <div className='flex items-center border-t p-3'>
-            <div className='py-3 p-2'>
+          <div className='flex items-center justify-between border-t p-3'>
+            <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
               <label htmlFor='age' className='text-sm text-gray-500'>
                 Age
               </label>
@@ -218,8 +218,8 @@ export default function EditPage({ person }) {
               </div>
             )}
           </div>
-          <div className='flex items-center border-t p-3'>
-            <div className='py-3 p-2'>
+          <div className='flex items-center justify-between border-t p-3'>
+            <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
               <label htmlFor='occupation' className='text-sm text-gray-500'>
                 Occupation
               </label>
@@ -257,8 +257,8 @@ export default function EditPage({ person }) {
               </div>
             )}
           </div>
-          <div className='flex items-center border-t p-3'>
-            <div className='py-3 p-2'>
+          <div className='flex items-center justify-between border-t p-3'>
+            <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
               <label htmlFor='gender' className='text-sm text-gray-500'>
                 Gender
               </label>

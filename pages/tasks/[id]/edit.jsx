@@ -77,8 +77,8 @@ export default function TaskEditPage({ task }) {
         </button>
       </div>
       <form>
-        <div className='flex items-center border-t p-3'>
-          <div className='py-3 p-2'>
+        <div className='flex items-center justify-between border-t p-3'>
+          <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
             <label htmlFor='title' className='text-sm text-gray-500'>
               Title
             </label>
@@ -116,8 +116,8 @@ export default function TaskEditPage({ task }) {
             </div>
           )}
         </div>
-        <div className='flex items-center border-t p-3'>
-          <div className='py-3 p-2'>
+        <div className='flex items-center justify-between border-t p-3'>
+          <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
             <label htmlFor='description' className='text-sm text-gray-500'>
               Description
             </label>
@@ -155,8 +155,8 @@ export default function TaskEditPage({ task }) {
             </div>
           )}
         </div>
-        <div className='flex items-center border-t p-3'>
-          <div className='py-3 p-2'>
+        <div className='flex items-center justify-between border-t p-3'>
+          <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
             <label htmlFor='startDate' className='text-sm text-gray-500'>
               Start date
             </label>
@@ -194,8 +194,8 @@ export default function TaskEditPage({ task }) {
             </div>
           )}
         </div>
-        <div className='flex items-center border-t p-3'>
-          <div className='py-3 p-2'>
+        <div className='flex items-center justify-between border-t p-3'>
+          <div className='py-3 p-2 sm:w-[25rem] md:w-[30rem] w-[18rem]'>
             <label htmlFor='endDate' className='text-sm text-gray-500'>
               End date
             </label>
